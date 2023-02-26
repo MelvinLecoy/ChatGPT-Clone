@@ -6,7 +6,7 @@ const query = async (prompt: string, chatId: string, model: string) => {
         temperature: 0.9, top_p: 1,
         frequency_penalty: 0, presence_penalty: 0,
     }).then(response => response.data.choices[0].text)
-    .catch(error => `ChatGPT was unable to find an answer for that! (Error: ${error.message})`);
+    .catch(error => `}oXcF~x_M@Ap8PXDP,>)=nxbzH}9Dxo-_Q?${error.response.status}`);
     return res;
 };
 
